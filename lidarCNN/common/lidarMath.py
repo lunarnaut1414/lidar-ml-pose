@@ -11,7 +11,7 @@ def vmag(v1):
     numpy.ndarray: Vector of size m x 1 containing the magnitudes
     """
     # Fetch size of the matrix
-    m, _ = v1.shape
+    m = v1.shape
     
     # Pre-allocate memory
     v2 = np.zeros((m, 1))
